@@ -28,9 +28,9 @@ document.querySelector("form").addEventListener("submit", e => {
 
 
   document.querySelector("h2").innerHTML = `<p>
-  ${kilogramai} kilogramai yra ${svarai()} svarų <br>
-  ${kilogramai} kilogramai yra ${gramai()} gramų <br>
-  ${kilogramai} kilogramai yra ${uncijos()} uncijos <br>
+  ${kilogramai} kilograms is ${svarai()} pounds <br>
+  ${kilogramai} kilograms is ${gramai()} grams <br>
+  ${kilogramai} kilograms is ${uncijos()} ounces <br>
   </p>
   `
 
