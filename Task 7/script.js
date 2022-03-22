@@ -16,5 +16,5 @@ function showObjectKeys(object) {
 
 
 }
-// Vykdomas funkcijos zmogus iškvietimas
+
 showObjectKeys(audi)
