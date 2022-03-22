@@ -27,6 +27,7 @@ atveju grąžins visų "users" amžiaus vidurkį kaip skaičių.
 
 function getUserAverageAge(masyvas) {
   let vartotojuAmzius = 0;
+
   masyvas.forEach(item => {
     vartotojuAmzius += item.age
 
