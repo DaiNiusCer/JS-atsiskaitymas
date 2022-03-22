@@ -10,3 +10,11 @@ const audi = {
   year: 2005,
   color: 'white'
 };
+
+function showObjectKeys(object) {
+  return console.log(Object.keys(object))
+
+
+}
+// Vykdomas funkcijos zmogus iškvietimas
+showObjectKeys(audi)
