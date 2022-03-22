@@ -26,4 +26,25 @@
 .container h1 {
   margin-top: 50px;
   color: #333;
+  margin-bottom: 50px;
+}
+
+.brandModels{
+  margin-bottom: 30px;
+  width: 850px;
+  background-color: rgb(243, 242, 166);
+  border-radius: 5px;
+}
+.brand{
+  font-size: 25px;
+  background-color: rgb(202, 191, 191);
+  border-radius: 5px;
+  width: 95%;
+  margin: 0 auto;
+ 
+}
+
+.models{
+  padding-bottom: 15px;
+  font-weight: bold;
 }

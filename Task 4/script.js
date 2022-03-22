@@ -10,3 +10,28 @@ bent minimalų stilių;
 -------------------------------------------------------------------------- */
 
 const ENDPOINT = 'cars.json';
+
+fetch(ENDPOINT)
+  .then(res => res.json())
+  .then(data => data)
+  .then(data => {
+    let isvedimas = ""
+
+    data.forEach(modelis => {
+      isvedimas += `
+  <div class="brandModels">
+  <p class="brand">${modelis.brand}</p>
+  <br>
+  <p class="models">${modelis.models}</p>
+  
+  </div>
+  `
+      document.querySelector("#output").innerHTML = isvedimas
+    })
+
+
+
+
+
+
+  })
