@@ -59,3 +59,23 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+img{
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.login{
+width: 80px;
+font-weight: bold;
+
+}
+
+.mainUsers{
+  border-top: 2px solid black;
+}
+
+.hidden{
+  display: none;
+}
