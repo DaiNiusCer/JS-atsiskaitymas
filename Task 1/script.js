@@ -8,3 +8,30 @@ pamatyti jo pateikto svorio konvertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+
+document.querySelector("form").addEventListener("submit", e => {
+  e.preventDefault();
+  let kilogramai = e.target.elements.kilogramai.value;
+  console.log(kilogramai)
+  function svarai() {
+    let svaraiAtsakymas = kilogramai * 2.2046
+    return svaraiAtsakymas
+  }
+  function gramai() {
+    let gramaiAtsakymas = kilogramai / 0.001
+    return gramaiAtsakymas
+  }
+  function uncijos() {
+    let uncijosAtsakymas = kilogramai * 35.274
+    return uncijosAtsakymas
+  }
+
+
+  document.querySelector("h2").innerHTML = `<p>
+  ${kilogramai} kilogramai yra ${svarai()} svarų <br>
+  ${kilogramai} kilogramai yra ${gramai()} gramų <br>
+  ${kilogramai} kilogramai yra ${uncijos()} uncijos <br>
+  </p>
+  `
+
+})

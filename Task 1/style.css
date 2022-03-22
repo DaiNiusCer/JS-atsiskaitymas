@@ -52,6 +52,21 @@ form {
   color: #fff;
 }
 
+.output{
+  border: 10px solid black;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+p{
+  margin-top: 60px;
+  font-size: 25px;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .headline {
